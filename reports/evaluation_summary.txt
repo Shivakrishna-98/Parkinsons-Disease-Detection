@@ -1,0 +1,34 @@
+
+================================================================
+PARKINSON'S DISEASE DETECTION - FINAL MODEL EVALUATION
+================================================================
+
+1. MODEL PERFORMANCE
+   - Accuracy:  0.7213
+   - Precision: 0.7857
+   - Recall:    0.8980
+   - F1 Score:  0.8381
+   - ROC-AUC:   0.6259
+
+2. CONFUSION MATRIX
+   True Negatives (TN): 0
+   False Positives (FP): 12
+   False Negatives (FN): 5
+   True Positives (TP): 44
+
+3. TOP 5 IMPORTANT FEATURES (SHAP)
+   1. MDVP:Fo(Hz): 0.0774
+   22. PPE: 0.0732
+   17. RPDE: 0.0727
+   20. spread2: 0.0667
+   19. spread1: 0.0452
+
+4. FIGURES GENERATED
+   - confusion_matrix.png
+   - roc_curve.png
+   - calibration_curve.png
+   - shap_summary.png
+   - shap_bar_plot.png
+   - shap_dependence_*.png (for top features)
+
+================================================================
